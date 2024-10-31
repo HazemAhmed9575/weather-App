@@ -4,7 +4,8 @@ padding: 0;
 box-sizing: border-box;
 }
 .WeatherApp {
-    background-image: url(../images/project-bg.png);
+   
+    background-image: url("../images/Project-bg.png");
     backface-visibility: hidden;
     background-size: cover;
 }
