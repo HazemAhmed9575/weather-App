@@ -31,7 +31,7 @@ butShow.addEventListener("click", async () => {
         `https://pixabay.com/api/videos/?key=42510262-a578e62c7ae6b8b11ba215f3b&q=${CityName.value}`
       );
       let databackground = await res.json();
-      databackground.hits[2]? (WeatherApp.style.backgroundImage = `url(${databackground.hits[2].videos.large.thumbnail})`):(WeatherApp.style.backgroundImage = `url(../images/project-bg.jpg)`)
+      databackground.hits[2]? (WeatherApp.style.backgroundImage = `url(${databackground.hits[2].videos.large.thumbnail})`):(WeatherApp.style.backgroundImage = `url(../images/project-bg.png)`)
         
       try {
         let res2 = await fetch(
