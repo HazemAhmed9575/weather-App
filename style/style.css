@@ -4,6 +4,7 @@ padding: 0;
 box-sizing: border-box;
 }
 .WeatherApp {
+    background-color: rgb(34,71,89);
     background-image: url(../images/project-bg.png);
     backface-visibility: hidden;
     background-size: cover;
